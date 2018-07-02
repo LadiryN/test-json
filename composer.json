@@ -1,0 +1,25 @@
+{
+
+    "name": "LeoricK/test-json",
+    "description": "A test",
+    "keywords": ["Json","test"],
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": " LeoricK",
+            "email": "lllLeoricKlll@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=5.3.0"
+    },
+    "autoload":{
+        
+        "psr-4":{
+            "LeoricK\\Responseclass\\":"src/"
+        }
+
+    }
+
+}
